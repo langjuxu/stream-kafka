@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="stream-kafka-consumer:war exploded">
+    <output-path>$PROJECT_DIR$/stream-kafka-consumer/target/stream-kafka-consumer</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="stream-kafka-consumer" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/stream-kafka-consumer/target/stream-kafka-consumer/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="stream-kafka-consumer/web/Web" />
+    </root>
+  </artifact>
+</component>
