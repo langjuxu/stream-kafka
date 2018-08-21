@@ -23,7 +23,7 @@ public class MyProducer {
     public boolean sendMessage(String msg) {
         System.err.println("<<<<<<<<<<<<<<<<自定义的生产者生产了>>>>>>>>>>>>>>>>>>" + msg);
         Order order = new Order();
-        order.setOrderNum("000019");
+        order.setOrderNum("000029");
         order.setOrderMoney(BigDecimal.valueOf(999.9));
         order.setOrderCount(10);
         order.setMsg(msg);
