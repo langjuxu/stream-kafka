@@ -21,7 +21,7 @@ public class ProviderController {
 
     // 自定义的output通道
     @Autowired
-    private  MyProducer myProducer;
+    private MyProducer myProducer;
 
     @GetMapping(value = "/sendProvider", produces = "application/json;charset=UTF-8")
     public boolean sendProvider(String msg) {
