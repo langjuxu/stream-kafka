@@ -14,7 +14,7 @@ public class IntegrationConsumer {
 
     @StreamListener(Sink.INPUT)
     public void consumer(Order order){
-        System.err.println("<<<<<<<<<<消费者消费了>>>>>>>>>>>>>>>>");
+        System.err.println("<<<<<<<<<<<<消费者消费了>>>>>>>>>>>>>>>>>");
         System.err.println(order);
     }
 }
